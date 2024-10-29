@@ -36,37 +36,37 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         TeclaIgual = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
+        TeclaMas = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
-        jPanel7 = new javax.swing.JPanel();
+        Nueve = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
-        jPanel8 = new javax.swing.JPanel();
+        Ocho = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
+        Siete = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
-        jPanel10 = new javax.swing.JPanel();
+        Cuatro = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
+        Cinco = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        jPanel12 = new javax.swing.JPanel();
+        Seis = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
-        jPanel13 = new javax.swing.JPanel();
+        Uno = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
-        jPanel14 = new javax.swing.JPanel();
+        Dos = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
-        jPanel4 = new javax.swing.JPanel();
+        Borrar = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
-        jPanel15 = new javax.swing.JPanel();
+        TeclaMC = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
-        jPanel16 = new javax.swing.JPanel();
+        Tres = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
-        jPanel17 = new javax.swing.JPanel();
+        TeclaMMas = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
-        jPanel18 = new javax.swing.JPanel();
+        TeclaMenos = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
-        jPanel19 = new javax.swing.JPanel();
+        TeclaPor = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
-        jPanel20 = new javax.swing.JPanel();
+        TeclaEntre = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
@@ -151,7 +151,7 @@ public class Pantalla extends javax.swing.JFrame {
 
         jPanel1.add(TeclaIgual, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 530, 142, 70));
 
-        jPanel6.setBackground(new java.awt.Color(10, 65, 70));
+        TeclaMas.setBackground(new java.awt.Color(10, 65, 70));
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
@@ -159,24 +159,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel15.setText("+");
         jLabel15.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        javax.swing.GroupLayout TeclaMasLayout = new javax.swing.GroupLayout(TeclaMas);
+        TeclaMas.setLayout(TeclaMasLayout);
+        TeclaMasLayout.setHorizontalGroup(
+            TeclaMasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMasLayout.createSequentialGroup()
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
+        TeclaMasLayout.setVerticalGroup(
+            TeclaMasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMasLayout.createSequentialGroup()
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 458, 70, 70));
+        jPanel1.add(TeclaMas, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 458, 70, 70));
 
-        jPanel7.setBackground(new java.awt.Color(4, 20, 25));
+        Nueve.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -184,30 +184,30 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel4.setText("9");
         jLabel4.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout NueveLayout = new javax.swing.GroupLayout(Nueve);
+        Nueve.setLayout(NueveLayout);
+        NueveLayout.setHorizontalGroup(
+            NueveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 70, Short.MAX_VALUE)
-            .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel7Layout.createSequentialGroup()
+            .addGroup(NueveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(NueveLayout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(0, 0, Short.MAX_VALUE)))
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        NueveLayout.setVerticalGroup(
+            NueveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 70, Short.MAX_VALUE)
-            .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel7Layout.createSequentialGroup()
+            .addGroup(NueveLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(NueveLayout.createSequentialGroup()
                     .addGap(0, 0, Short.MAX_VALUE)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(0, 0, Short.MAX_VALUE)))
         );
 
-        jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 458, 70, 70));
+        jPanel1.add(Nueve, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 458, 70, 70));
 
-        jPanel8.setBackground(new java.awt.Color(4, 20, 25));
+        Ocho.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
@@ -215,24 +215,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel5.setText("8");
         jLabel5.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
+        javax.swing.GroupLayout OchoLayout = new javax.swing.GroupLayout(Ocho);
+        Ocho.setLayout(OchoLayout);
+        OchoLayout.setHorizontalGroup(
+            OchoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(OchoLayout.createSequentialGroup()
                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
+        OchoLayout.setVerticalGroup(
+            OchoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(OchoLayout.createSequentialGroup()
                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 458, 70, 70));
+        jPanel1.add(Ocho, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 458, 70, 70));
 
-        jPanel9.setBackground(new java.awt.Color(4, 20, 25));
+        Siete.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -240,24 +240,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel6.setText("7");
         jLabel6.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
+        javax.swing.GroupLayout SieteLayout = new javax.swing.GroupLayout(Siete);
+        Siete.setLayout(SieteLayout);
+        SieteLayout.setHorizontalGroup(
+            SieteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SieteLayout.createSequentialGroup()
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
+        SieteLayout.setVerticalGroup(
+            SieteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SieteLayout.createSequentialGroup()
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 458, 70, 70));
+        jPanel1.add(Siete, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 458, 70, 70));
 
-        jPanel10.setBackground(new java.awt.Color(4, 20, 25));
+        Cuatro.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
@@ -265,24 +265,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel9.setText("4");
         jLabel9.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
+        javax.swing.GroupLayout CuatroLayout = new javax.swing.GroupLayout(Cuatro);
+        Cuatro.setLayout(CuatroLayout);
+        CuatroLayout.setHorizontalGroup(
+            CuatroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuatroLayout.createSequentialGroup()
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
+        CuatroLayout.setVerticalGroup(
+            CuatroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuatroLayout.createSequentialGroup()
                 .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 386, 70, 70));
+        jPanel1.add(Cuatro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 386, 70, 70));
 
-        jPanel11.setBackground(new java.awt.Color(4, 20, 25));
+        Cinco.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -290,24 +290,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel7.setText("5");
         jLabel7.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
-        jPanel11.setLayout(jPanel11Layout);
-        jPanel11Layout.setHorizontalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel11Layout.createSequentialGroup()
+        javax.swing.GroupLayout CincoLayout = new javax.swing.GroupLayout(Cinco);
+        Cinco.setLayout(CincoLayout);
+        CincoLayout.setHorizontalGroup(
+            CincoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CincoLayout.createSequentialGroup()
                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel11Layout.setVerticalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel11Layout.createSequentialGroup()
+        CincoLayout.setVerticalGroup(
+            CincoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CincoLayout.createSequentialGroup()
                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 386, 70, 70));
+        jPanel1.add(Cinco, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 386, 70, 70));
 
-        jPanel12.setBackground(new java.awt.Color(4, 20, 25));
+        Seis.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
@@ -315,24 +315,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel8.setText("6");
         jLabel8.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel12Layout.createSequentialGroup()
+        javax.swing.GroupLayout SeisLayout = new javax.swing.GroupLayout(Seis);
+        Seis.setLayout(SeisLayout);
+        SeisLayout.setHorizontalGroup(
+            SeisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SeisLayout.createSequentialGroup()
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel12Layout.createSequentialGroup()
+        SeisLayout.setVerticalGroup(
+            SeisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SeisLayout.createSequentialGroup()
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 386, 70, 70));
+        jPanel1.add(Seis, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 386, 70, 70));
 
-        jPanel13.setBackground(new java.awt.Color(4, 20, 25));
+        Uno.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
@@ -345,24 +345,24 @@ public class Pantalla extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
-        jPanel13.setLayout(jPanel13Layout);
-        jPanel13Layout.setHorizontalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel13Layout.createSequentialGroup()
+        javax.swing.GroupLayout UnoLayout = new javax.swing.GroupLayout(Uno);
+        Uno.setLayout(UnoLayout);
+        UnoLayout.setHorizontalGroup(
+            UnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(UnoLayout.createSequentialGroup()
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel13Layout.setVerticalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel13Layout.createSequentialGroup()
+        UnoLayout.setVerticalGroup(
+            UnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(UnoLayout.createSequentialGroup()
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 314, 70, 70));
+        jPanel1.add(Uno, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 314, 70, 70));
 
-        jPanel14.setBackground(new java.awt.Color(4, 20, 25));
+        Dos.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
@@ -370,24 +370,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel11.setText("2");
         jLabel11.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
-        jPanel14.setLayout(jPanel14Layout);
-        jPanel14Layout.setHorizontalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel14Layout.createSequentialGroup()
+        javax.swing.GroupLayout DosLayout = new javax.swing.GroupLayout(Dos);
+        Dos.setLayout(DosLayout);
+        DosLayout.setHorizontalGroup(
+            DosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DosLayout.createSequentialGroup()
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel14Layout.setVerticalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel14Layout.createSequentialGroup()
+        DosLayout.setVerticalGroup(
+            DosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(DosLayout.createSequentialGroup()
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 314, 70, 70));
+        jPanel1.add(Dos, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 314, 70, 70));
 
-        jPanel4.setBackground(new java.awt.Color(4, 20, 25));
+        Borrar.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(153, 0, 0));
@@ -395,24 +395,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel16.setText("C");
         jLabel16.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout BorrarLayout = new javax.swing.GroupLayout(Borrar);
+        Borrar.setLayout(BorrarLayout);
+        BorrarLayout.setHorizontalGroup(
+            BorrarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BorrarLayout.createSequentialGroup()
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        BorrarLayout.setVerticalGroup(
+            BorrarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BorrarLayout.createSequentialGroup()
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 242, 70, 70));
+        jPanel1.add(Borrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 242, 70, 70));
 
-        jPanel15.setBackground(new java.awt.Color(4, 20, 25));
+        TeclaMC.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
@@ -420,24 +420,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel17.setText("MC");
         jLabel17.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
+        javax.swing.GroupLayout TeclaMCLayout = new javax.swing.GroupLayout(TeclaMC);
+        TeclaMC.setLayout(TeclaMCLayout);
+        TeclaMCLayout.setHorizontalGroup(
+            TeclaMCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMCLayout.createSequentialGroup()
                 .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
+        TeclaMCLayout.setVerticalGroup(
+            TeclaMCLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMCLayout.createSequentialGroup()
                 .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 242, 70, 70));
+        jPanel1.add(TeclaMC, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 242, 70, 70));
 
-        jPanel16.setBackground(new java.awt.Color(4, 20, 25));
+        Tres.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
@@ -445,24 +445,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel12.setText("3");
         jLabel12.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
-        jPanel16.setLayout(jPanel16Layout);
-        jPanel16Layout.setHorizontalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel16Layout.createSequentialGroup()
+        javax.swing.GroupLayout TresLayout = new javax.swing.GroupLayout(Tres);
+        Tres.setLayout(TresLayout);
+        TresLayout.setHorizontalGroup(
+            TresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TresLayout.createSequentialGroup()
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel16Layout.setVerticalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel16Layout.createSequentialGroup()
+        TresLayout.setVerticalGroup(
+            TresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TresLayout.createSequentialGroup()
                 .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 314, 70, 70));
+        jPanel1.add(Tres, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 314, 70, 70));
 
-        jPanel17.setBackground(new java.awt.Color(4, 20, 25));
+        TeclaMMas.setBackground(new java.awt.Color(4, 20, 25));
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 255, 255));
@@ -470,24 +470,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel18.setText("M+");
         jLabel18.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
-        jPanel17.setLayout(jPanel17Layout);
-        jPanel17Layout.setHorizontalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel17Layout.createSequentialGroup()
+        javax.swing.GroupLayout TeclaMMasLayout = new javax.swing.GroupLayout(TeclaMMas);
+        TeclaMMas.setLayout(TeclaMMasLayout);
+        TeclaMMasLayout.setHorizontalGroup(
+            TeclaMMasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMMasLayout.createSequentialGroup()
                 .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel17Layout.setVerticalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel17Layout.createSequentialGroup()
+        TeclaMMasLayout.setVerticalGroup(
+            TeclaMMasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMMasLayout.createSequentialGroup()
                 .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 242, 70, 70));
+        jPanel1.add(TeclaMMas, new org.netbeans.lib.awtextra.AbsoluteConstraints(144, 242, 70, 70));
 
-        jPanel18.setBackground(new java.awt.Color(10, 65, 70));
+        TeclaMenos.setBackground(new java.awt.Color(10, 65, 70));
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
@@ -495,24 +495,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel14.setText("-");
         jLabel14.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
-        jPanel18.setLayout(jPanel18Layout);
-        jPanel18Layout.setHorizontalGroup(
-            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel18Layout.createSequentialGroup()
+        javax.swing.GroupLayout TeclaMenosLayout = new javax.swing.GroupLayout(TeclaMenos);
+        TeclaMenos.setLayout(TeclaMenosLayout);
+        TeclaMenosLayout.setHorizontalGroup(
+            TeclaMenosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMenosLayout.createSequentialGroup()
                 .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel18Layout.setVerticalGroup(
-            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel18Layout.createSequentialGroup()
+        TeclaMenosLayout.setVerticalGroup(
+            TeclaMenosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaMenosLayout.createSequentialGroup()
                 .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 386, 70, 70));
+        jPanel1.add(TeclaMenos, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 386, 70, 70));
 
-        jPanel19.setBackground(new java.awt.Color(10, 65, 70));
+        TeclaPor.setBackground(new java.awt.Color(10, 65, 70));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
@@ -520,24 +520,24 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel13.setText("x");
         jLabel13.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
-        jPanel19.setLayout(jPanel19Layout);
-        jPanel19Layout.setHorizontalGroup(
-            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel19Layout.createSequentialGroup()
+        javax.swing.GroupLayout TeclaPorLayout = new javax.swing.GroupLayout(TeclaPor);
+        TeclaPor.setLayout(TeclaPorLayout);
+        TeclaPorLayout.setHorizontalGroup(
+            TeclaPorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaPorLayout.createSequentialGroup()
                 .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel19Layout.setVerticalGroup(
-            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel19Layout.createSequentialGroup()
+        TeclaPorLayout.setVerticalGroup(
+            TeclaPorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaPorLayout.createSequentialGroup()
                 .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 314, 70, 70));
+        jPanel1.add(TeclaPor, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 314, 70, 70));
 
-        jPanel20.setBackground(new java.awt.Color(10, 65, 70));
+        TeclaEntre.setBackground(new java.awt.Color(10, 65, 70));
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
@@ -545,22 +545,22 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel19.setText(".");
         jLabel19.setPreferredSize(new java.awt.Dimension(70, 70));
 
-        javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
-        jPanel20.setLayout(jPanel20Layout);
-        jPanel20Layout.setHorizontalGroup(
-            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel20Layout.createSequentialGroup()
+        javax.swing.GroupLayout TeclaEntreLayout = new javax.swing.GroupLayout(TeclaEntre);
+        TeclaEntre.setLayout(TeclaEntreLayout);
+        TeclaEntreLayout.setHorizontalGroup(
+            TeclaEntreLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaEntreLayout.createSequentialGroup()
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel20Layout.setVerticalGroup(
-            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel20Layout.createSequentialGroup()
+        TeclaEntreLayout.setVerticalGroup(
+            TeclaEntreLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TeclaEntreLayout.createSequentialGroup()
                 .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 242, 70, 70));
+        jPanel1.add(TeclaEntre, new org.netbeans.lib.awtextra.AbsoluteConstraints(216, 242, 70, 70));
 
         jTextField2.setBackground(new java.awt.Color(0, 0, 0));
         jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
@@ -616,9 +616,25 @@ public class Pantalla extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel Borrar;
+    private javax.swing.JPanel Cinco;
+    private javax.swing.JPanel Cuatro;
+    private javax.swing.JPanel Dos;
+    private javax.swing.JPanel Nueve;
+    private javax.swing.JPanel Ocho;
+    private javax.swing.JPanel Seis;
+    private javax.swing.JPanel Siete;
     private javax.swing.JPanel TeclaCero;
+    private javax.swing.JPanel TeclaEntre;
     private javax.swing.JPanel TeclaIgual;
+    private javax.swing.JPanel TeclaMC;
+    private javax.swing.JPanel TeclaMMas;
+    private javax.swing.JPanel TeclaMas;
+    private javax.swing.JPanel TeclaMenos;
+    private javax.swing.JPanel TeclaPor;
     private javax.swing.JPanel TeclaPunto;
+    private javax.swing.JPanel Tres;
+    private javax.swing.JPanel Uno;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -639,22 +655,6 @@ public class Pantalla extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel19;
-    private javax.swing.JPanel jPanel20;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     // End of variables declaration//GEN-END:variables
